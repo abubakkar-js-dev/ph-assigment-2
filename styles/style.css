@@ -53,7 +53,7 @@ section{
 }
 .container{
     max-width: 1140px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -453,6 +453,25 @@ footer{
         width: 100%;
         grid-template-columns: repeat(2,1fr);
         
+    }
+    /* footer  */
+    footer{
+        width: 100%;
+        padding-right: 200px;
+        height: 350px;
+    }
+    .footer-content-wrap{
+        flex-direction: column;
+    }
+    .footer-content{
+        width: 65%;
+    }
+    .footer-links-col-wrap{
+        width: 75%;
+        justify-content: space-between;
+        gap: 152px;
+        flex-direction: row;
+        gap: 10px;
     }
 }
 
