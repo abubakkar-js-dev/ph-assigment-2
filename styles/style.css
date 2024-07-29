@@ -308,6 +308,7 @@ nav{
 
 /* footer section  */
 footer{
+    width: 100%;
     background-color: #222222;
     padding: 35px 20px 10px;
 }
@@ -456,9 +457,7 @@ footer{
     }
     /* footer  */
     footer{
-        width: 100%;
-        padding-right: 200px;
-        height: 350px;
+        width: calc(100% + 35px);
     }
     .footer-content-wrap{
         flex-direction: column;
