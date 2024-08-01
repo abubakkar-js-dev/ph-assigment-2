@@ -129,7 +129,79 @@
             <!-- training and exercise section start -->
 
            <!-- BMI calculator section -->
+           <section id="bmi-calculator">
+            <div class="container">
+                <div class="bmi-title-wrap">
+                    <h2 class="section-title">BMI Calculator</h2>
+                    <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income or
+                        access to a gym.</p>
+                </div>
+            </div>
+            <div class="bmi-calculation-wrap">
+                <div class="container bmi-calculation">
+                    <div class="bmi-chart-wrap">
+                        <h3 class="bmi-inner-title bmi-chart-title">
+                            BMI Calculator Chart
+                        </h3>
+                        <table class="bmi-chart-table">
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                               </tr>
+                               <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                               </tr>
+                               <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                               </tr>
+                               <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                               </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="bmi-calculate-wrap">
+                        <div class="bmi-calculate-title-wrap">
+                            <h2 class="bmi-inner-title bmi-calculate-title">Calculate your BMI</h2>
+                            <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                        </div>
+                        <div>
+                            <div class="input-group">
+                                <input type="text" name="height" id="height" class="calculate-input" placeholder="Height/cm" >
+                                <input type="text" name="height" id="weight" class="calculate-input" placeholder="Weight/kg" >
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="age" id="age" class="calculate-input" placeholder="Age" >
+                                <select class="gender" name="gender" id="gender">
+                                    <option value="Sex" selected disabled>Sex</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <select class="activity-input" name="activity-factor" id="activity-factor">
+                                <option value="activity-default" selected disabled>Select an activity factor</option>
+                                <option value="activity-1">I don’t do much exercise or physical activity throughout the day</option>
+                                <option value="activity-2">I participate in moderate physical activity or exercise 3-5 days a week</option>
+                                <option value="activity-3">I have a physically demanding job or I exercise intensely multiple times a day.</option>
+                            </select>
+                            <button class="btn-primary calculate-btn">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+           </section>
            <!-- BMI calculator section end -->
             <!-- our team section start -->
              <section id="our-team" class="container">
